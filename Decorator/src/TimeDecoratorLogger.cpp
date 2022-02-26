@@ -14,6 +14,6 @@ namespace YGV{
         std::time_t time_point = clock::to_time_t(clock::now());
         std::ostringstream oss;
         oss << std::put_time(std::gmtime(&time_point),format.c_str());
-        logger->to_log(oss.str() + " | " + "I am time decorator");
+        logger->to_log(oss.str() + " | " + content +  " I am time decorator");
     }          
 }
