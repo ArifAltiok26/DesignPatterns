@@ -1,9 +1,9 @@
-#include "Playable.hpp"
+#include "PlayableAdapter.hpp"
 namespace OtherWorld{
     class Tetris;
 }
 namespace YGV{
-    class TetrisAdapter : public Playable{
+    class TetrisAdapter : public PlayableAdapter{
         OtherWorld::Tetris* tetris;
         public:
         TetrisAdapter(OtherWorld::Tetris* tetris);

@@ -1,6 +1,7 @@
 #pragma once
 namespace OtherWorld{
-    struct Tetris{
+    class Tetris{
+        public:
         void start()const;
     };
 }

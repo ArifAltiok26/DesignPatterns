@@ -4,6 +4,7 @@ PROJECT(Adapter VERSION 1.0)
 
 file (GLOB_RECURSE AdapterExampleFiles 
     main.cpp
+    include/*.hpp
     src/*.cpp
 )
 
